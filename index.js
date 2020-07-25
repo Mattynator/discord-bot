@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
- const client = new Discord.Client();
+const client = new Discord.Client();
+const token = '[INSERT TOKEN HERE]' //Insert the Client Token (DO NOT SHARE IT)
 
 client.on('ready', () => {
  console.log(`Logged in as ${client.user.tag}!`);
@@ -22,4 +23,4 @@ client.on('message', msg => {
 
 });
 
-client.login('[Insert Client Token Here]');     //Insert the Client Token (DO NOT SHARE IT)
+client.login(token);     //Uses the client token in the variable on the beginning of the file

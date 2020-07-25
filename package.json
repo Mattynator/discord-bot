@@ -1,0 +1,15 @@
+{
+  "name": "discord-bot",
+  "author": "blohshyboi",
+  "license": "MIT",
+  "version": "1.0.0",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
